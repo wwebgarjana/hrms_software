@@ -1,0 +1,72 @@
+.allowance-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f4fbff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.allowance-form {
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.field {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field span {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.field input,
+.field select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.allowance-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.allowance-form button:hover {
+  background: #0056b3;
+}
+
+.allowance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.allowance-table th,
+.allowance-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.allowance-table th {
+  background: #d9f0ff;
+}

@@ -1,0 +1,218 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0;
+  position: relative;
+  z-index: 10;
+  height: 100px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Triangle background behind logo  #021233*/
+.nav-left {
+  position: relative;
+  width: 180px;
+  height: 100px;
+  background-color: #0c202e;
+  clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 30px;
+}
+
+/* Base styles for links */
+.nav-links a,
+.dropdown-toggle {
+  text-decoration: none;           /* No underline */
+  color: #000;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Button-style hover effect */
+.nav-links a:hover,
+.dropdown-toggle:hover {
+  background-color: #0c202e;      /* Orange background */
+  color: #fff;                    /* White text */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+.nav-links a.active {
+  color: #2a2acf;
+}
+
+.nav-links a.active::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 60%;
+  background-color: #e48b37;
+  margin: 4px auto 0;
+  border-radius: 10px;
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  background-color: white;
+  color: #000;
+  padding: 10px;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-menu a {
+  color: #0c202e;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Login or Quote button */
+.login-link {
+  margin-left: auto;
+  margin-right: 30px;
+  background: linear-gradient(135deg, #8e2de2, #021233, #007bff);
+  color: white !important;
+  padding: 14px 32px;
+  border-radius: 30px;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.login-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #7a1fd9, #3a00c4, #0056b3);
+  color: #fff !important;
+}
+
+
+/*/
+/* Profile icon in navbar */
+/* Add to Mainnavbar.css */
+
+.profile-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* ✅ Push to far right */
+}
+
+
+.profile-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #0c202e;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  padding: 8px 12px;
+  z-index: 999;
+ 
+min-width: 220px; /* Or maybe missing */
+
+}
+
+.profile-dropdown button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #0c202e;
+  cursor: pointer;
+  padding: 6px 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.profile-dropdown button:hover {
+  background-color: #f0f0f0;
+}
+
+/*///////////////*/
+/* Profile image inside the profile-circle */
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Email displayed in dropdown */
+.email-display {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+  word-break: break-word;
+  padding: 0 5px;
+}
+
+/* Upload photo label styling */
+/* .upload-label {
+  font-size: 14px;
+  color: #007bff;
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: inline-block;
+} */
+
+/* Hide the input but still functional */
+.upload-input {
+  display: none;
+}
+

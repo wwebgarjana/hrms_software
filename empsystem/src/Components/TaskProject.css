@@ -1,0 +1,37 @@
+/* EmployeeTaskView.css */
+
+.employee-task-view {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-task-title {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.employee-task-card {
+  background-color: #ffffff;
+  border-left: 6px solid #007bff;
+  padding: 16px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.employee-task-card h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.employee-task-card p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #444;
+}

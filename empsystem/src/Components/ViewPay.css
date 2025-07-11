@@ -1,0 +1,25 @@
+/* File: ViewPaySlip.css */
+.payslip-view-container {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.payslip-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.payslip-card p {
+  margin: 5px 0;
+}
+
+.payslip-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}

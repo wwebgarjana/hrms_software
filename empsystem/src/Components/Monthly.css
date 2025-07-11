@@ -1,0 +1,52 @@
+.monthly-container {
+  max-width: 500px;
+  margin: 30px auto;
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Card effect */
+  font-family: Arial, sans-serif;
+}
+
+.monthly-container h2 {
+  color: #007acc;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.monthly-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.monthly-row label {
+  font-weight: bold;
+}
+
+.monthly-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.monthly-buttons button {
+  padding: 10px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.monthly-buttons button:hover {
+  background-color: #005f99;
+}
+
+select {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

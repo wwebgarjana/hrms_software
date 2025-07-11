@@ -1,0 +1,66 @@
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /* center the cards horizontally */
+  gap: 24px;
+  padding: 40px;
+}
+
+
+@media (max-width: 900px) {
+  .profile-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+.profile-card {
+  width: 320px; /* wider than default */
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.profile-header {
+  background-color: #021233;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 20px;
+}
+
+.profile-role {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.profile-body {
+  padding: 16px;
+  font-size: 14px;
+  color: #333;
+}
+
+.profile-body ul {
+  padding-left: 18px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+}

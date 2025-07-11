@@ -1,0 +1,47 @@
+.hrclaim-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.hrclaim-sidebar {
+  width: 220px;
+  background-color: #2d4059;
+  padding: 20px;
+  color: white;
+}
+
+.hrclaim-sidebar-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hrclaim-sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hrclaim-sidebar-menu li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.hrclaim-sidebar-menu li:hover {
+  background-color: #3f5679;
+}
+
+.hrclaim-dashboard-link {
+  color: white;
+  text-decoration: none;
+}
+
+.hrclaim-main {
+  flex: 1;
+  padding: 25px;
+  background-color: #ffffff;
+  overflow-y: auto;
+}

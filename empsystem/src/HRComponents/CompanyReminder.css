@@ -1,0 +1,63 @@
+/* File: CompanyReminder.css */
+
+.reminder-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.reminder-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.category-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.category-toggle label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}
+
+.reminder-card {
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #007bff;
+  border-radius: 8px;
+  background-color: #f9fbfc;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+}
+
+.reminder-card h3 {
+  margin-top: 0;
+  color: #007bff;
+  font-size: 17px;
+}
+
+.reminder-card p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.due-text {
+  font-weight: bold;
+}
+
+.notification-placeholder {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #888;
+  font-style: italic;
+}

@@ -1,0 +1,122 @@
+/* EmployeePersonalInfo.css */
+
+.emp-container {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f8fafd;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.emp-title {
+  text-align: center;
+  color: #2d3e50;
+  margin-bottom: 25px;
+}
+
+.emp-image-preview {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.emp-profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.emp-no-image {
+  text-align: center;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.emp-form-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.emp-form-card label {
+  font-weight: 600;
+  margin-top: 8px;
+  color: #444;
+}
+
+.emp-form-card input,
+.emp-form-card select {
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.emp-form-card input:disabled,
+.emp-form-card select:disabled {
+  background-color: #f0f0f0;
+  color: #777;
+}
+
+.emp-btn {
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.save-btn:hover {
+  background-color: #1e7e34;
+}
+
+.emp-msg-box {
+  margin-top: 12px;
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border-left: 5px solid #28a745;
+}
+
+.emp-display-box {
+  margin-top: 30px;
+  padding: 18px;
+  background-color: #f1f7ff;
+  border: 1px dashed #007bff;
+  border-radius: 10px;
+}
+
+.emp-display-box h3 {
+  margin-top: 0;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.emp-display-box p {
+  font-size: 14px;
+  margin: 6px 0;
+}

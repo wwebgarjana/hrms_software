@@ -1,0 +1,54 @@
+.raise-form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f4f8fb;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.raise-form-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.raise-form-container label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 500;
+  color: #444;
+}
+
+.raise-form-container input,
+.raise-form-container select,
+.raise-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.raise-form-container textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+.raise-submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.raise-submit-button:hover {
+  background-color: #1565c0;
+}

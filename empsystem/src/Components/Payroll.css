@@ -1,0 +1,73 @@
+/* Container styling */
+.payslip-container {
+  text-align: center;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f9ff;
+  min-height: 100vh;
+}
+
+/* Button group styling */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+/* Button base style */
+.button-group button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+}
+
+/* Hover effect */
+.button-group button:hover {
+  background-color: #007bff;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Active tab */
+.button-group .active {
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+/* Content area */
+.tab-content {
+  background-color: white;
+  padding: 25px;
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+}
+
+/* Text style */
+.tab-content h2 {
+  margin-bottom: 15px;
+  color: #004080;
+}
+
+.tab-content ul {
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+}
+
+.tab-content ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+}

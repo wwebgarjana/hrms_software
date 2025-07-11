@@ -1,0 +1,90 @@
+.announcement-container {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #f4f9fc;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.announcement-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filter-section label {
+  font-weight: 500;
+}
+
+.announcement-card {
+  border: 1px solid #dbe5ee;
+  border-left: 6px solid #007bff;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+}
+
+.announcement-card h3 {
+  margin: 0 0 10px;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.announcement-card p {
+  margin: 6px 0;
+  color: #444;
+  font-size: 15px;
+}
+
+.attachment a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.attachment a:hover {
+  text-decoration: underline;
+}
+
+.announcement-card button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.announcement-card button:hover {
+  background-color: #218838;
+}
+
+.comment-box {
+  margin-top: 10px;
+}
+
+.comment-box input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.notification-placeholder {
+  margin-top: 10px;
+  font-style: italic;
+  color: #888;
+  font-size: 14px;
+}

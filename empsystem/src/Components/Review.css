@@ -1,0 +1,44 @@
+.review-section {
+  padding: 30px;
+  background-color: #f9faff;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.review-section h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 25px;
+}
+
+.review-card {
+  background-color: white;
+  padding: 20px;
+  border-left: 6px solid #007bff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.review-card h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #0056b3;
+}
+
+.review-card .role {
+  font-weight: normal;
+  color: #888;
+  font-size: 14px;
+}
+
+.review-card .feedback {
+  font-style: italic;
+  margin: 10px 0;
+  color: #333;
+}
+
+.review-card .rating {
+  color: #ffc107;
+  font-weight: bold;}

@@ -1,0 +1,47 @@
+.project-tools {
+  padding: 30px;
+  background-color: #f7faff;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-tools h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 25px;
+}
+
+.project-tools table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.project-tools th,
+.project-tools td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 15px;
+}
+
+.project-tools th {
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+}
+
+.project-tools a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-tools a:hover {
+  text-decoration: underline;
+}

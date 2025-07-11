@@ -1,0 +1,51 @@
+.project-reports {
+  padding: 30px;
+  background-color: #f0f8ff;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-reports h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 25px;
+}
+
+.report-card {
+  background: #ffffff;
+  border-left: 6px solid #007bff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.report-card h3 {
+  color: #00529b;
+  margin-bottom: 10px;
+}
+
+.report-card p {
+  font-size: 15px;
+  margin: 6px 0;
+}
+
+.report-card .status {
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: white;
+}
+
+.status.on-track {
+  background-color: #28a745;
+}
+
+.status.completed {
+  background-color: #007bff;
+}
+
+.status.delayed {
+  background-color: #dc3545;
+}

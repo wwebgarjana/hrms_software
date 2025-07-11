@@ -1,0 +1,81 @@
+/* .status-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.data-table th {
+  background-color: #007acc;
+  color: white;
+} */
+
+
+/* File: HRAttendance.css */
+
+.hr-attendance-container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.hr-attendance-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.hr-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.hr-table th,
+.hr-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.hr-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: 600;
+}
+
+.hr-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.hr-table tr:hover {
+  background-color: #f0f0f0;
+}
+
+@media screen and (max-width: 768px) {
+  .hr-table {
+    font-size: 13px;
+  }
+
+  .hr-attendance-container {
+    padding: 15px;
+  }
+}

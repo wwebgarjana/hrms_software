@@ -1,0 +1,57 @@
+.hr-upload {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hr-upload h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.hr-upload form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hr-upload label {
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+.hr-upload input[type="email"],
+.hr-upload input[type="file"],
+.hr-upload textarea {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.hr-upload textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.hr-upload button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hr-upload button:hover {
+  background-color: #007bff;
+}

@@ -1,0 +1,123 @@
+/* .leave-request-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #f5f9ff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.leave-request-container h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.leave-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.leave-form label {
+  font-weight: 500;
+  color: #333;
+}
+
+.leave-form input,
+.leave-form select,
+.leave-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.leave-form input[type='checkbox'] {
+  margin-right: 8px;
+}
+
+.leave-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.leave-form button:hover {
+  background-color: #0056b3;
+}
+.leave-request-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #f5f9ff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.leave-request-container h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.leave-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.leave-form label {
+  font-weight: 500;
+  color: #333;
+}
+
+.leave-form input,
+.leave-form select,
+.leave-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.leave-form input[type='checkbox'] {
+  margin-right: 8px;
+}
+
+.leave-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.leave-form button:hover {
+  background-color: #0056b3;
+} */
+
+
+.hr-leave-panel table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.hr-leave-panel th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.hr-leave-panel th {
+  background-color: #f0f0f0;
+}

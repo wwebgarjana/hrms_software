@@ -1,0 +1,54 @@
+/* .approve-panel {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f4f9ff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.approve-panel h2 {
+  text-align: center;
+}
+
+.approve-panel table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.approve-panel th,
+.approve-panel td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.approve-panel .approve {
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.approve-panel .reject {
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+} */
+
+
+.my-leave-status table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.my-leave-status th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.my-leave-status th {
+  background-color: #eef;
+}

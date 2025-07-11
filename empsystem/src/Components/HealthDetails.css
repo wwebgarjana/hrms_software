@@ -1,0 +1,38 @@
+/* HealthDetails.css */
+.health-section {
+  padding: 25px;
+  background-color: #fdfdfd;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.health-section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #006666;
+}
+
+.health-section table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.health-section th,
+.health-section td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.health-section th {
+  background-color:#3498db;
+  color: white;
+  width: 30%;
+}
+
+.health-section td {
+  background-color: #f9f9f9;
+}

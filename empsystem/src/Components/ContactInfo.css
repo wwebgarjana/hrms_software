@@ -1,0 +1,68 @@
+.contact-info {
+  background: #ffffff;
+  padding: 50px 60px;
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 1000px;         /* Increased width */
+  margin: 50px auto;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.contact-info h2 {
+  color: #2c3e50;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 40px;             /* More spacing between inputs */
+}
+
+.form-grid label {
+  font-weight: 600;
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.form-grid input,
+.form-grid textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fdfdfd;
+  font-size: 15px;
+  transition: border-color 0.2s ease;
+}
+
+.form-grid input:focus,
+.form-grid textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contact-info button {
+  margin-top: 40px;
+  padding: 14px 35px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 0.3s ease;
+}
+
+.contact-info button:hover {
+  background-color: #0056b3;
+}

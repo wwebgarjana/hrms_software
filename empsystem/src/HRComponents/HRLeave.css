@@ -1,0 +1,53 @@
+.hrleave-container {
+  padding: 30px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Back button styles */
+.hrleave-back-wrapper {
+  margin-bottom: 20px;
+}
+
+.hrleave-back-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #2c3e50;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.hrleave-back-link:hover {
+  background-color: #34495e;
+}
+
+/* Button group styles */
+.hrleave-buttons {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.hrleave-buttons button {
+  padding: 10px 20px;
+  background-color: #bdc3c7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hrleave-buttons button.hrleave-active {
+  background-color: #2c3e50;
+  color: white;
+}
+
+/* Content styles */
+.hrleave-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

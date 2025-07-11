@@ -1,0 +1,61 @@
+.hrtask-container {
+  padding: 30px;
+  background-color: #f4f7fc;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.hrtask-back-wrapper {
+  margin-bottom: 20px;
+}
+
+.hrtask-back-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #2c3e50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.hrtask-back-link:hover {
+  background-color: #34495e;
+}
+
+.hrtask-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.hrtask-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hrtask-form input,
+.hrtask-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hrtask-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hrtask-form button:hover {
+  background-color: #34495e;
+}

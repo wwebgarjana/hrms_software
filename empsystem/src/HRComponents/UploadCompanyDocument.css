@@ -1,0 +1,102 @@
+.upload-doc-container {
+  max-width: 850px;
+  margin: 30px auto;
+  background: #f8fbff;
+  padding: 30px;
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.upload-doc-container h2 {
+  text-align: center;
+  color: #003366;
+}
+
+.doc-subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.upload-doc-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.upload-doc-form label {
+  font-weight: 600;
+}
+
+.upload-doc-form input,
+.upload-doc-form select,
+.upload-doc-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+}
+
+.upload-doc-form button {
+  margin-top: 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.upload-doc-form button:hover {
+  background-color: #005fa3;
+}
+
+.doc-list-section {
+  margin-top: 35px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.doc-list-section h3 {
+  margin-bottom: 15px;
+  color: #003366;
+}
+
+.search-input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.doc-list {
+  list-style: none;
+  padding: 0;
+}
+
+.doc-list li {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.doc-list li button {
+  margin-top: 8px;
+  background-color: #00aa66;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.doc-list li button:hover {
+  background-color: #008c55;
+}

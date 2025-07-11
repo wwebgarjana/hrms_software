@@ -1,0 +1,47 @@
+.hrpayroll-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.hrpayroll-sidebar {
+  width: 220px;
+  background-color: #1e3a5f;
+  padding: 20px;
+  color: white;
+}
+
+.hrpayroll-sidebar-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hrpayroll-sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hrpayroll-sidebar-menu li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.hrpayroll-sidebar-menu li:hover {
+  background-color: #305278;
+}
+
+.hrpayroll-dashboard-link {
+  color: white;
+  text-decoration: none;
+}
+
+.hrpayroll-main {
+  flex: 1;
+  padding: 25px;
+  background-color: #ffffff;
+  overflow-y: auto;
+}

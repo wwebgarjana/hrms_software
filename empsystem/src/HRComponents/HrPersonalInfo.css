@@ -1,0 +1,114 @@
+/* HrPersonalInfo.css */
+
+.hrp-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #f5f8fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hrp-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.hrp-input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.hrp-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.hrp-label {
+  display: block;
+  margin: 10px 0 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.hrp-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hrp-button:hover {
+  background-color: #0056b3;
+}
+
+.hrp-image-preview {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.hrp-image-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.hrp-info-box {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #eef6fb;
+  border: 1px dashed #007bff;
+  border-radius: 10px;
+  color: #333;
+}
+
+.hrp-info-box h3 {
+  margin-top: 0;
+  color: #007bff;
+  text-align: center;
+}
+
+.hrp-info-box p {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.hrp-info-image {
+  display: block;
+  margin: 0 auto 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .hrp-container {
+    padding: 15px;
+  }
+
+  .hrp-title {
+    font-size: 20px;
+  }
+
+  .hrp-button {
+    font-size: 15px;
+  }
+}

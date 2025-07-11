@@ -1,0 +1,49 @@
+.generate-payslip-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.generate-payslip-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.generate-payslip-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.generate-payslip-form label {
+  font-weight: bold;
+  color: #444;
+}
+
+.generate-payslip-form input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.generate-payslip-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.generate-payslip-button:hover {
+  background-color: #0056b3;
+}

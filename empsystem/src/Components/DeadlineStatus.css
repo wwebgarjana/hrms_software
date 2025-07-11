@@ -1,0 +1,85 @@
+.deadline-status {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #f9fbff;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.deadline-status h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 25px;
+}
+
+.deadline-status table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.deadline-status th,
+.deadline-status td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  font-size: 14px;
+}
+
+.deadline-status th {
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+}
+
+.status {
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-block;
+  min-width: 80px;
+}
+
+.status.pending {
+  background-color: #dc3545; /* Red */
+  color: white;
+}
+
+.status.in-progress {
+  background-color: #ffc107; /* Yellow */
+  color: #000;
+}
+
+.status.completed {
+  background-color: #28a745; /* Green */
+  color: white;
+}
+
+.status.delayed {
+  background-color: #6c757d; /* Gray */
+  color: white;
+}
+
+/* Progress Bar */
+.progress-bar {
+  width: 100%;
+  max-width: 120px;
+  background-color: #e9ecef;
+  height: 10px;
+  border-radius: 5px;
+  margin: 0 auto 4px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar .fill {
+  height: 100%;
+  background-color: #007bff;
+  transition: width 0.4s ease-in-out;
+  border-radius: 5px 0 0 5px;
+}

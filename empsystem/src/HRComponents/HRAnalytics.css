@@ -1,0 +1,84 @@
+.analytics-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+  background: #f9fbff;
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.analytics-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.analytics-section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.06);
+}
+
+.analytics-section h3 {
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+.analytics-section label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.analytics-section input,
+.analytics-section select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+.analytics-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.badge {
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.badge.punctual {
+  background-color: #2e8b57;
+}
+
+.badge.irregular {
+  background-color: #c0392b;
+}
+
+.export-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.export-buttons button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.export-buttons button:hover {
+  background-color: #005fa3;
+}

@@ -1,0 +1,130 @@
+/* CustomHRNotification.css */
+
+.hrn-wrapper {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #eef1f6;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hrn-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.hrn-form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.hrn-form label {
+  font-weight: 600;
+  color: #333;
+}
+
+.hrn-form input,
+.hrn-form select,
+.hrn-form textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hrn-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.hrn-preview {
+  background-color: #f1f1f1;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #444;
+}
+
+.hrn-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.hrn-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hrn-form button:hover {
+  background-color: #0056b3;
+}
+
+.hrn-submitted {
+  margin-top: 40px;
+}
+
+.hrn-submitted h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
+
+.hrn-scroll-box {
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.hrn-card {
+  background: #f9f9f9;
+  border-left: 4px solid #007bff;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+.hrn-card h4 {
+  margin: 0 0 6px;
+  color: #007bff;
+}
+
+.hrn-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .hrn-wrapper {
+    padding: 10px;
+  }
+
+  .hrn-form {
+    padding: 10px;
+  }
+
+  .hrn-scroll-box {
+    max-height: 250px;
+  }
+}

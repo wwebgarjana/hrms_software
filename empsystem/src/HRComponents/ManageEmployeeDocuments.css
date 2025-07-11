@@ -1,0 +1,78 @@
+.employee-documents-container {
+  max-width: 950px;
+  margin: auto;
+  padding: 30px;
+  background-color: #f5faff;
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.employee-documents-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.employee-doc-form {
+  display: grid;
+  gap: 15px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.employee-doc-form label {
+  font-weight: 500;
+}
+
+.employee-doc-form input,
+.employee-doc-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.employee-doc-form button {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.document-table {
+  margin-top: 30px;
+}
+
+.document-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.document-table th,
+.document-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.delete-btn {
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.download-btn {
+  background-color: #007744;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}

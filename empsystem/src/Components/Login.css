@@ -1,0 +1,171 @@
+/* Main container for login */
+.login-main-container {
+  min-height: 100vh;
+  background: #e6f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Card layout */
+.login-card {
+  display: flex;
+  width: 768px;
+  background: #fff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+/* Left and right panels */
+.login-left,
+.login-right {
+  flex: 1;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Left side (form) */
+.login-left {
+  background-color: #ffffff;
+}
+
+.login-left h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Login form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.login-form .forgot {
+  text-align: right;
+  font-size: 14px;
+  color: #007bff;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Right side (info panel) */
+.login-right {
+  background: linear-gradient(to right, #5ab4f8, #007bff);
+  color: white;
+  text-align: center;
+}
+
+.login-right h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.login-right p {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.login-right button {
+  padding: 12px 30px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-right button:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+/* Role Switch Buttons (inside form header) */
+.role-switch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.role-switch button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e0e0e0;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.role-switch button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-card {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .login-left,
+  .login-right {
+    padding: 30px 20px;
+  }
+
+  .login-right h2 {
+    font-size: 20px;
+  }
+
+  .login-left h2 {
+    font-size: 24px;
+  }
+
+  .role-switch button {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .login-form input,
+  .login-form button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

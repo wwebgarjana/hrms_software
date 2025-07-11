@@ -1,0 +1,44 @@
+.employee-chat-container {
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.employee-chat-box {
+  height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #e8f8f5;
+}
+
+.employee-message {
+  text-align: right;
+  background-color: #d1f2eb;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.hr-message {
+  text-align: left;
+  background-color: #f9e79f;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.employee-input-area {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.employee-input-area input {
+  flex: 1;
+  padding: 10px;
+}
+
+.employee-input-area button {
+  padding: 10px 20px;
+}

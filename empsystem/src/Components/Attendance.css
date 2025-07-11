@@ -1,0 +1,42 @@
+.attendance-wrapper {
+  padding: 30px;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.attendance-title {
+  color: #021233;
+  margin-bottom: 25px;
+}
+
+.attendance-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.attendance-tabs button {
+  background-color: #3db2cf;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.attendance-tabs button:hover {
+  background-color: #266092;
+}
+
+.attendance-tabs button.active {
+  background-color: #007acc;
+  color: white;
+}
+
+.attendance-content {
+  margin-top: 20px;
+}

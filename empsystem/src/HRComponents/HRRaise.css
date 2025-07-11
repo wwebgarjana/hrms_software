@@ -1,0 +1,37 @@
+/* File: HRRaise.css */
+.hr-raise-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hr-raise-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ticket-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.ticket-table th, .ticket-table td {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 15px;
+}
+
+.ticket-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.ticket-table tr:hover {
+  background-color: #f9f9f9;
+}
